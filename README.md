@@ -16,8 +16,7 @@ A real-time bicep curl counter built with **MediaPipe Pose** and **OpenCV**. The
 | File | Description |
 |---|---|
 | `Bicep_Curl_Counter_Tutorial.ipynb` | Step-by-step tutorial notebook. Builds up the project piece by piece: webcam feed → pose detection → joint extraction → angle calculation → full curl counter. Good for learning how it works. |
-| `ai_gym_tracker.py` | Final, clean, standalone script. Just the finished curl counter — run it and go. |
-| `requirements.txt` | Pinned dependency versions known to work together. |
+| `ai_gym_tracker.ipynb` | Final, clean, standalone script. Just the finished curl counter — run it and go. |
 
 
 
@@ -26,7 +25,7 @@ A real-time bicep curl counter built with **MediaPipe Pose** and **OpenCV**. The
 Run the final script directly:
 
 ```bash
-python ai_gym_tracker.py
+ai_gym_tracker.ipynb
 ```
 
 - A window will open showing your webcam feed with the pose skeleton overlaid.
